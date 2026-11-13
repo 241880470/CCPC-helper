@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+settings.json
+settings.invalid-*.json
+.settings-*.tmp
+memory/
+*.pdf
+build/
+dist/
+build_log.txt
