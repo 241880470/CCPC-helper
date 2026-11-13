@@ -106,7 +106,3 @@ python3 -m venv .venv
 | `fetch_stats.py` / `fetch_tags.py` / `fetch_tutorial_tags.py` | 补充统计和标签；部分需要凭据或 AI 用量 |
 | `recover_round.py` | 从已有 PDF 补录比赛，参数见 `--help`，支持 `--dry-run` |
 | `tests/` | 本地自动检查，需先安装运行依赖；GUI 检查需要桌面或 Xvfb |
-
-运行检查：`python -m unittest discover -s tests -v`。验证范围见 `VALIDATION.md`。
-
-若需 Windows exe，在 Windows 上另装 PyInstaller 后运行 `python -m PyInstaller CCPC-helper.spec`，分发整个 `dist/CCPC-helper/`，让使用者在首次启动时配置。此版尚未在 Windows 上打包或验证 exe。
