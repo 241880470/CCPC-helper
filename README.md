@@ -80,10 +80,6 @@
 - 环境变量优先于本地文件。AI 三项变量名为 `CCPC_AI_API_KEY`、`CCPC_AI_BASE_URL`、`CCPC_AI_MODEL`；CF 各项变量与配置项同名。由环境变量管理的字段只读。
 - AI 请求由服务商计费，队伍记忆、题目、结果和备注会用于分析；PDF 翻译会发送题面。保存配置不实际测试连接，组题等操作时才发起请求。
 
-## 转交给其他队伍
-
-使用此干净源码包，让对方首次启动填写自己的配置。如果需要附题库，只另外提供 `memory/problem_bank.json`。不要把 `settings.json`、`settings.invalid-*.json`、`memory/edge_profile/`、训练存档或私人报告一起分发。
-
 ## 其他运行方式与维护
 
 macOS / Linux 可手动运行（Linux 需要带 Tkinter 的 Python）：
